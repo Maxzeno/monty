@@ -55,6 +55,8 @@ void func_push(stack_t **head, unsigned int number);
 void func_pall(stack_t **head, unsigned int number);
 void func_pint(stack_t **head, unsigned int number);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
+void free_stack(stack_t *head);
+void func_pop(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void func_queue(stack_t **head, unsigned int counter);

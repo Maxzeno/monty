@@ -53,6 +53,7 @@ typedef struct instruction_s
 } instruction_t;
 void func_push(stack_t **head, unsigned int number);
 void func_pall(stack_t **head, unsigned int number);
+void func_pint(stack_t **head, unsigned int number);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);

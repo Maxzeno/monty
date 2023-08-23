@@ -59,6 +59,7 @@ void free_stack(stack_t *head);
 void func_pop(stack_t **head, unsigned int counter);
 void func_swap(stack_t **head, unsigned int counter);
 void func_add(stack_t **head, unsigned int counter);
+void func_nop(stack_t **head, unsigned int counter);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void func_queue(stack_t **head, unsigned int counter);
